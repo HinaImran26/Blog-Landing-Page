@@ -1,0 +1,77 @@
+.container-fluid {
+    background-color: var(--light-pink);
+    height: 100%;
+}
+
+.newsletter-heading {
+    border-bottom: 1px solid var(--dark-pink);
+    color: var(--dark-pink);
+    width: fit-content;
+    font-size: 26px;
+}
+
+input {
+    height: 2.5rem;
+    border-radius: 30px;
+    background: var(--dark-pink);
+    display: flex;
+    text-align: center;
+    border: 1px solid var(--dark-pink);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.signupbtn {
+    height: 2.5rem;
+    border-radius: 30px;
+    background: var(--blue);
+    display: flex;
+    text-align: center;
+    border: 1px solid var(--blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-frame {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.img-frame img {
+    object-fit: cover;
+}
+
+.item-frame span {
+    color: var(--dark-pink);
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
+footer {
+    background: linear-gradient(180deg, var(--blue), #1d5e4f);
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.bi {
+    font-size: 28px;
+    color: white;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}

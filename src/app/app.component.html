@@ -23,7 +23,7 @@
                                 <span style="color:var(--dark-pink)">1</span>
                             </div>
                             <div class="social d-flex align-items-center" style="gap:15px">
-                                <span>Share</span>
+                                <span style="color:var(--dark-pink)">Share</span>
                                 <i class="bi bi-facebook"></i>
                                 <i class="bi bi-twitter"></i>
                             </div>
@@ -31,12 +31,37 @@
                     </div>
                 </div>
             </section>
-
-
-
+            <section class="cards-section">
+                <div class="row">
+                    <div class="col-md-6" *ngFor="let data of [1,2]">
+                        <div class="card p-4">
+                            <img src="../assets/michiel-annaert-5lLLAxNpAys-unsplash.jpg" class="w-100 h-100" alt="">
+                            <div class="d-flex flex-column">
+                                <div class="content my-3">
+                                    <span class="section-title">Your Title Here</span>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, molestiae?</p>
+                                    <!-- <button>Read More</button> -->
+                                </div>
+                                <div class="icons d-flex justify-content-between">
+                                    <!-- <div class="comment d-flex align-items-center" style="gap: 6px;">
+                                        <i class="bi bi-chat"></i>
+                                        <span style="color:var(--dark-pink)">1</span>
+                                    </div> -->
+                                    <button>Read More</button>
+                                    <div class="social d-flex align-items-center" style="gap:15px">
+                                        <span style="color:var(--dark-pink)">Share</span>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-twitter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="col-md-4" style="background-color: rgb(9, 255, 0);">
-
+        <div class="col-md-4">
+            <app-newsletter></app-newsletter>
         </div>
     </div>
 </div>

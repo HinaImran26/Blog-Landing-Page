@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SliderComponent } from './views/slider/slider.component';
+import { NewsletterComponent } from './views/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SliderComponent
+    SliderComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,

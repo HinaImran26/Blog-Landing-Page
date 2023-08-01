@@ -1,0 +1,45 @@
+.container-fluid {}
+
+
+i {
+    color: var(--dark-pink);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+i:hover,
+button:hover {
+    background-color: var(--blue);
+    transition: all 0.2s linear;
+}
+
+button {
+    color: white;
+    background: pink;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.title {
+    color: var(--blue);
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 2px solid var(--dark-pink);
+    width: fit-content;
+}
+
+.section-title {
+    color: var(--blue);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.features-row {
+    border-bottom: 2px solid var(--dark-pink);
+    padding-bottom: 20px;
+}

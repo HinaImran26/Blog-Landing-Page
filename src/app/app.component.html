@@ -1,2 +1,42 @@
 <app-navbar></app-navbar>
 <app-slider></app-slider>
+
+<div class="container-fluid p-5">
+    <div class="row">
+        <div class="col-md-8">
+            <section class="features">
+                <h1 class="title mb-4">Features</h1>
+                <div class="row features-row mb-3" *ngFor="let data of [1,2]; let i = index">
+                    <div class="col-md-6">
+                        <img src="../assets/michiel-annaert-5lLLAxNpAys-unsplash.jpg" class="w-100 h-100" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-around">
+                        <div class="content">
+                            <span class="section-title">Your Title Here</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fugit facere corporis
+                                consequuntur a ut earum numquam accusantium unde repudiandae!</p>
+                            <button>Read More</button>
+                        </div>
+                        <div class="icons d-flex justify-content-between">
+                            <div class="comment d-flex align-items-center" style="gap: 6px;">
+                                <i class="bi bi-chat"></i>
+                                <span style="color:var(--dark-pink)">1</span>
+                            </div>
+                            <div class="social d-flex align-items-center" style="gap:15px">
+                                <span>Share</span>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div>
+        <div class="col-md-4" style="background-color: rgb(9, 255, 0);">
+
+        </div>
+    </div>
+</div>

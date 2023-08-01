@@ -1,22 +1,26 @@
 <div class="container-fluid p-0">
-    <section class="section1 p-3">
-        <h1 class="newsletter-heading">News Letter</h1>
-        <div class="d-flex flex-column mt-4" style="gap:18px">
-            <input type="text" class="email" placeholder="Your email address">
-            <button class="signupbtn">Sign Up</button>
-        </div>
-    </section>
-    <section class="section2 my-3 p-3">
-        <h1 class="newsletter-heading my-3">Your Title</h1>
-        <div class="my-4 p-3 d-flex flex-wrap" style="row-gap: 18px;">
-            <div class="item col-md-6 d-flex flex-column align-items-center" *ngFor="let data of [1,2,3,4,5,6]">
-                <div class="img-frame">
-                    <img src="../../../assets/pexels-lynda-sanchez-1777813.jpg" class="w-100 h-100" alt="">
-                </div>
-                <span>Lorem ipsum</span>
+
+    <div class="newsletter-container">
+        <section class="section1 p-3">
+            <h1 class="newsletter-heading">News Letter</h1>
+            <div class="d-flex flex-column mt-4 align-items-center" style="gap:18px">
+                <input type="text" class="email" placeholder="Your email address">
+                <button class="signupbtn">Sign Up</button>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="section2 my-3 p-3">
+            <h1 class="newsletter-heading my-3">Your Title</h1>
+            <div class="my-4 p-3 d-flex flex-wrap" style="row-gap: 18px;">
+                <div class="item col-md-6 col-sm-4 d-flex flex-column align-items-center"
+                    *ngFor="let data of [1,2,3,4,5,6,7,8]">
+                    <div class="img-frame">
+                        <img src="../../../assets/pexels-lynda-sanchez-1777813.jpg" class="w-100 h-100" alt="">
+                    </div>
+                    <span class="text-center">Lorem ipsum</span>
+                </div>
+            </div>
+        </section>
+    </div>
     <footer class="p-3">
         <h1 class="newsletter-heading" style="color:white;border-bottom: 1px solid white">Follow</h1>
         <div class="icon-container">

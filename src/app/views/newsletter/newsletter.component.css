@@ -1,5 +1,8 @@
 .container-fluid {
     background-color: var(--light-pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100%;
 }
 
@@ -12,6 +15,7 @@
 
 input {
     height: 2.5rem;
+    width: 250px;
     border-radius: 30px;
     background: var(--dark-pink);
     display: flex;
@@ -26,6 +30,7 @@ input {
 
 .signupbtn {
     height: 2.5rem;
+    width: 250px;
     border-radius: 30px;
     background: var(--blue);
     display: flex;
@@ -74,4 +79,23 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 30px;
+}
+
+
+@media(max-width:992px) {
+    .newsletter-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+    }
+
+    .section1, .section2, footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

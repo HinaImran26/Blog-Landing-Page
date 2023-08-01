@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-navItems=['home','about','features','categories','contact']
-
+  navItems = ['home', 'about', 'features', 'categories', 'contact']
+  openFlag = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  openNav() {
+    this.openFlag = !this.openFlag;
+    console.log(this.openFlag)
   }
 
 }
